@@ -1,0 +1,19 @@
+insurance-chatbot/
+├── src/
+│   ├── controllers/
+│   │   ├── whatsappController.js       # Handles WhatsApp interactions
+│   │   ├── policyController.js         # Fetches and compares policies
+│   │   └── paymentController.js        # Manages M-Pesa payments
+│   ├── services/
+│   │   ├── insuranceApiService.js      # Connects to insurance APIs
+│   │   ├── mpesaService.js             # Handles M-Pesa transactions
+│   │   └── chatbotResponseService.js   # Formats chatbot responses
+│   ├── routes/
+│   │   ├── whatsappRoutes.js           # Defines chatbot API routes
+│   │   └── callbackRoutes.js           # Handles M-Pesa callbacks
+│   └── utils/
+│       ├── config.js                   # Configuration settings
+│       └── helpers.js                  # Utility functions
+├── app.js                              # Entry point
+├── package.json                        # Dependencies
+└── README.md                           # Documentation
